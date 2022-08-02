@@ -1,0 +1,13 @@
+h2 테이블 생성 안됨
+
+CREATE TABLE IF NOT EXISTS courses (
+    id bigint(5) NOT NULL AUTO_INCREMENT, 
+    title varchar(255) NOT NULL,
+    tutor varchar(255) NOT NULL,
+    PRIMARY KEY (id)
+);
+
+으로 해봤는데 오류떴다ㅠㅠ
+테이블 생성이 안돼서 알아보다가 
+bigint 뒤 (5)를 지우니 실행이 되었다. 
+으로 하니 테이블 작성이 되었다. 
